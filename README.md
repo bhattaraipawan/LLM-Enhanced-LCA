@@ -1,4 +1,4 @@
-# AI-Enhanced Life Cycle Assessment
+# AI-Enhanced upfront Life Cycle Assessment
 
 ## An Integrated Framework for Automated Upfront Embodied Carbon Assessment of Building Materials
 

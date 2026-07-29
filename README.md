@@ -21,7 +21,7 @@ review.
 
 ## Overview
 
-Whole-building life cycle assessment typically requires practitioners to:
+Upfront Whole-building life cycle assessment typically requires practitioners to:
 
 - interpret inconsistent material descriptions;
 - normalize quantities and units;

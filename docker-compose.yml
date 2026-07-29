@@ -1,0 +1,13 @@
+services:
+  wblca:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      APP_HOST: 0.0.0.0
+      APP_PORT: 8000
+      OPENLCA_HOST: host.docker.internal
+      OPENLCA_PORT: 8080
+      OPENLCA_RECREATE_PRODUCT_SYSTEMS: "false"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"

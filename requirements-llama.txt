@@ -1,0 +1,6 @@
+# Install this file only on a machine with a supported CUDA or Apple MPS GPU.
+-r requirements.txt
+torch>=2.4
+transformers>=4.45,<5
+accelerate>=1,<2
+safetensors>=0.4

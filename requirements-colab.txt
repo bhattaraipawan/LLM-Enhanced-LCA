@@ -1,0 +1,21 @@
+# Google Colab full production workflow (Qwen + frozen openLCA factor snapshot + native notebook widgets)
+transformers==4.57.6
+accelerate==1.14.0
+bitsandbytes==0.50.1
+safetensors>=0.4
+huggingface_hub>=0.24
+sentencepiece>=0.2
+pandas==2.2.3
+openpyxl==3.1.5
+xlsxwriter>=3.2,<4
+scikit-learn==1.6.1
+numpy>=1.26,<3
+matplotlib>=3.8,<4
+ipywidgets>=8,<9
+
+# Live web retrieval for automatic physical-property / external-EF resolution
+ddgs>=9.14,<10
+requests>=2.31,<3
+pypdf>=5,<7
+pdfplumber>=0.11,<1
+pillow>=10,<12

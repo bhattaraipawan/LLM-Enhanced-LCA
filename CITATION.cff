@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software or the archived study results, please cite the associated publication and this repository."
+title: "LLM-Enhanced LCA"
+type: software
+authors:
+  - family-names: "Bhattarai"
+    given-names: "Pawan"
+date-released: 2026-08-30
+license: MIT
+repository-code: "https://github.com/bhattaraipawan/LLM-Enhanced-LCA"

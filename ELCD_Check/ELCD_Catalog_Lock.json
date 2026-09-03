@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "frozen_at_utc": "2026-08-30T13:49:14+00:00",
+  "database_label_user_supplied": "ELCD 3.2",
+  "catalog_file": "ELCD_Process_Catalog.xlsx",
+  "catalog_process_count": 608,
+  "catalog_content_sha256": "ffd076b115f91042921f82130e426da9d29d684b23ff102ef3e185b34c83d5eb",
+  "catalog_file_sha256": "d4fd028ac98abd16112f6fbc1042701803831e8376510d4fd39a8a922962c9a6",
+  "historical_benchmark_catalog_content_sha256": "ffd076b115f91042921f82130e426da9d29d684b23ff102ef3e185b34c83d5eb",
+  "same_as_historical_benchmark_catalog": true,
+  "matching_protocol": {
+    "benchmark_script_version": "2.3.0",
+    "model_id": "Qwen/Qwen2.5-7B-Instruct",
+    "model_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+    "system_prompt_sha256": "e0ae559d973576c0fb625723f4fec6d75575c791d24f34bea7a073c51790ac70",
+    "seed": 42,
+    "candidate_pool_size": 5,
+    "reported_top_k": 3,
+    "max_new_tokens": 256,
+    "temperature": 0,
+    "decoding": "greedy",
+    "do_sample": false,
+    "quantization": "4-bit NF4",
+    "retrieval_method": "character n-gram TF-IDF",
+    "retrieval_analyzer": "char_wb",
+    "retrieval_ngram_range": "3-5",
+    "retrieval_query_source": "original BOM description only",
+    "candidate_presentation": "deterministic SHA-256 shuffle by sample_id + process_uuid",
+    "retrieval_rank_visible_to_llm": false,
+    "retrieval_score_visible_to_llm": false
+  },
+  "freeze_rule": "This ELCD catalog is the frozen manuscript retrieval snapshot. Editing or regenerating it creates a different environmental-data snapshot."
+}
